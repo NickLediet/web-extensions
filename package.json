@@ -1,0 +1,19 @@
+{
+  "name": "web-extensions",
+  "version": "1.0.0",
+  "description": "A chrome extension for adding additional functionality to some of my favourite websites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickLediet/web-extensions.git"
+  },
+  "author": "Nicholas Lediet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickLediet/web-extensions/issues"
+  },
+  "homepage": "https://github.com/NickLediet/web-extensions#readme"
+}
