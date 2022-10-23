@@ -2,20 +2,31 @@
   "name": "web-extensions",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "dev": "webpack --config webpack.config.babel.js --mode development",
+    "dev:watch": "webpack --config webpack.config.babel.js --mode=development --watch",
+    "build": "webpack --config webpack.config.babel.js --mode production",
     "build:extension": "yarn build && cp src/manifest.json dist/",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.37"
+    "ts-loader": "^9.4.1",
+    "vue": "^3.2.37",
+    "webpack": "^5.74.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
     "typescript": "^4.6.4",
     "vite": "^3.1.0",
-    "vue-tsc": "^0.40.4"
+    "vue-loader": "^17.0.0",
+    "vue-style-loader": "^4.1.3",
+    "vue-tsc": "^0.40.4",
+    "webpack-cli": "^4.10.0"
   }
 }

@@ -6,5 +6,16 @@
   "action": {
     "default_popup": "index.html",
     "default_icon": "icon.png"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*.pinterest.ca/*",
+        "http://*.pinterest.com/*",
+        "https://*.pinterest.ca/*",
+        "https://*.pinterest.com/*"
+      ],
+      "js": ["pinterest.js"]
+    }
+  ]
 }
