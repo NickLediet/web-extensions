@@ -1,4 +1,4 @@
 # Web Extensions
 
-A chrome extension for adding additional fuctionality to some of my favourite websites.
+A chrome extension for adding additional functionality to some of my favourite websites.
 
