@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
+  "name": "Web Extensions",
+  "description": "A chrome extension for adding additional features to my favourite websites.",
   "version": "1.0",
   "action": {
-    "default_popup": "hello.html",
-    "default_icon": "hello_extensions.png"
+    "default_popup": "public/popup.html",
+    "default_icon": "public/icon.png"
   }
 }
