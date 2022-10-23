@@ -4,7 +4,7 @@
   "description": "A chrome extension for adding additional features to my favourite websites.",
   "version": "1.0",
   "action": {
-    "default_popup": "public/popup.html",
-    "default_icon": "public/icon.png"
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
   }
 }
